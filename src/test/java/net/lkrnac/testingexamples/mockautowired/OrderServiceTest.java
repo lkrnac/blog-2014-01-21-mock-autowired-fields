@@ -21,7 +21,7 @@ public class OrderServiceTest {
 	private OrderService testingObject;
 	
 	@Spy
-	private PriceService priceService = new PriceService();
+	private PriceService priceService;
 	
 	@Mock
 	private OrderDao orderDao;
